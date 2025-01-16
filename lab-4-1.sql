@@ -1,5 +1,6 @@
 -- How many lifetime hits does Barry Bonds have?
-
+.mode columns
+.headers on
 -- Expected result:
 -- 2935
 SELECT *, SUM(hits)
